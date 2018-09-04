@@ -56,7 +56,7 @@ public class Simple extends Object{
      * </p>
      */
     public void flip(){
-
+        truth = !truth;
     }
 
     /**
@@ -81,7 +81,7 @@ public class Simple extends Object{
      * @return the numeric status
      */
     public Number number(){
-
+        return number;
     }
 
     /**
@@ -91,7 +91,7 @@ public class Simple extends Object{
      * @return the text status
      */
     public String text(){
-
+        return text;
     }
 
     /**
@@ -100,7 +100,7 @@ public class Simple extends Object{
      */
     @Override
     public String toString(){
-
+        return "Simple[" + truth.toString() + ", " + number.toString() + ", \"" + text + "\"]";
     }
 
     /**
@@ -110,6 +110,6 @@ public class Simple extends Object{
      * @return the truth status
      */
     public Boolean truth(){
-
+        return truth;
     }
 }
