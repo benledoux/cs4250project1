@@ -7,7 +7,7 @@ import java.util.LinkedList;
  * parameters to the constructor establish the initial state of the object including
  * the characteristics of the numerical sequence.
  *
- * @author Ben Doux
+ * @author Ben LeDoux
  * @author Jimmy Morgan
  * @author Alex Ovick
  * @author Jon Bowen
